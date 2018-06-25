@@ -1,0 +1,580 @@
+body{
+    background-color: gainsboro;
+}
+
+#container{
+    width: 968px;
+    margin: 0px auto;
+    margin-top: -7px;
+}
+
+/*        TITLES          */
+
+.header{
+
+
+    margin-left: -3%;
+    margin-top: -7%;
+    font-size: 120%;
+    color: lightblue;
+
+    text-shadow: 0 1px 0 #ccc, 0 1px 15px rgba(0,0,0,.9), 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 13px 1px rgba(0,0,0,.4);
+
+}    
+
+.header2{
+
+    font-size: 120%;
+    color: white;
+    background-color: black;
+    text-align:0%;
+    margin-top: 21%;
+    opacity: 1;
+    margin-left: -3.2%;
+    margin-right: -3.2%;
+    border-radius: 5px;
+
+    animation: animate 3s linear infinite;
+
+}    
+
+#title2 h2 {
+    margin-left: 53%;
+
+}
+
+@keyframes animate{
+
+    0%
+    {
+        color: powderblue;
+        box-shadow: 0 2px 10px rgba(255,0,0,1);   
+    }
+    33.3%
+    {
+        color: lightsteelblue;
+        box-shadow: 0 2px 10px rgba(255,0,0,1);   
+    }
+    66.6%
+    {
+        color: lightskyblue;
+        box-shadow: 0 2px 10px rgba(255,0,0,1);   
+    }
+    100%
+    {
+        color: deepskyblue;
+        box-shadow: 0 2px 10px rgba(255,0,0,1);   
+    }
+
+
+}
+
+.header2version{
+
+    font-size: 120%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: -6.3%;
+    opacity: -1;
+    margin-left: -3.2%;
+    margin-right: -3.2%;
+    border-radius: 5px;
+
+}  
+
+/*         IMAGES        */
+
+
+#image1 {  
+    background: url(https://bsbproduction.s3.amazonaws.com/portals/4574/contentrotator/contentrotator636064367750447097.png);
+
+    padding: 30px;
+    height: 200px;
+
+    display: block;
+    border-radius: 5px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%80%;
+    opacity: 1;
+}
+
+
+/*    LOGO  image    */
+
+#image2 {
+
+    background: url(https://nysl-web-app.firebaseapp.com/media/nysl_logo.png);
+    width: 140px;
+    height: 140px;
+    margin-left: 85%;
+    margin-right: 10%;
+    margin-top: -26%;
+    background-size: 100%100%;
+    animation: r1 250s linear infinite;
+
+
+}
+
+
+@keyframes r1{
+
+    0%{
+        transform: rotate(360deg);  
+    }
+}
+
+/*     DATES INFORMATION MAIN    */
+
+/*       DATES INFORMATION       */
+
+/*      BUTTONS    */
+
+.nav{
+    margin-left: 0%;
+    margin-right:;
+    margin-top: -1%;
+    font-size: 110%;
+    padding: 0px 0.5px;
+}   
+
+/* home button */
+
+#home{
+    display: inline; 
+}
+
+#home{
+    padding: 0px 0px;
+    font-family: cursive;
+}
+
+#home a:hover {
+    color: white;
+    background-color: dodgerblue;    
+}
+
+#home a  {
+
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+
+    border-bottom-style:outset;
+    border-right-style: outset;
+    border-left-style: outset;
+    border-top-style: outset;
+
+    border-bottom-width: thick;
+    border-right-width: thick;
+
+    border-bottom-color: black;
+    border-right-color: black;
+    border-left-color: black;
+    border-top-color: black;
+
+    text-align: center;
+    border-radius: 30%;
+    display: block;
+    width: 7%;
+    float: left;
+
+    animation: animate1 5s linear infinite;
+
+}
+
+/* about button */
+
+
+#about{
+    display: inline;
+    padding: 0px 0px;
+    font-family: cursive;
+    color: white;    
+
+}
+
+#about a:hover {   
+    color: white;
+    background-color: dodgerblue; 
+
+}
+
+#about a  {
+    text-decoration: none; 
+    color: white;
+    background-color: blue;
+
+
+    border-bottom-style:outset;
+    border-right-style: outset;
+    border-left-style: outset;
+    border-top-style: outset;
+
+    border-bottom-width: thick;
+    border-right-width: thick;
+
+    border-bottom-color: black;
+    border-right-color: black;
+    border-left-color: black;
+    border-top-color: black;
+
+    text-align: center;
+    border-radius: 30%;
+    display: block;
+    width: 12%;
+    float: left;
+
+    animation: animate1 5s linear infinite;
+
+}
+
+/* contact button */
+
+#contact{
+    display: inline;
+    padding: 0px 0px;
+    font-family: cursive;
+    color: white;
+    background-color: 0;
+}
+
+#contact a:hover {
+    color: white;
+    background-color: dodgerblue; 
+
+}
+
+#contact a  {
+    text-decoration: none; 
+    color: white;
+    background-color: blue;
+
+
+    border-bottom-style:outset;
+    border-right-style: outset;
+    border-left-style: outset;
+    border-top-style: outset;
+
+    border-bottom-width: thick;
+    border-right-width: thick;
+
+    border-bottom-color: black;
+    border-right-color: black;
+    border-left-color: black;
+    border-top-color: black;
+
+    text-align: center;
+    border-radius: 30%;
+    display: block;
+    width: 9%;
+    float: left;
+
+    animation: animate1 5s linear infinite;
+
+}
+
+/* locations button */
+
+#locations{
+    display: inline;
+    padding: 0px 0px;
+    font-family: cursive;
+    color: white;
+    background-color: 0;
+}
+
+#locations a:hover {
+    color: white;
+    background-color: dodgerblue; 
+
+}
+
+#locations a  {
+    text-decoration: none; 
+    color: white;
+    background-color: blue;
+
+
+    border-bottom-style:outset;
+    border-right-style: outset;
+    border-left-style: outset;
+    border-top-style: outset;
+
+    border-bottom-width: thick;
+    border-right-width: thick;
+
+    border-bottom-color: black;
+    border-right-color: black;
+    border-left-color: black;
+    border-top-color: black;
+
+    text-align: center;
+    border-radius: 30%;
+    display: block;
+    width: 12%;
+    float: left;
+
+    animation: animate1 5s linear infinite;
+
+}
+
+/* rules button */
+
+#rules{
+    display: inline;
+    padding: 0px 0px;
+    font-family: cursive;
+    color: white;
+    background-color: 0;
+}
+
+#rules a:hover {
+    color: white;
+    background-color: dodgerblue; 
+
+}
+
+#rules a  {
+    text-decoration: none; 
+    color: white;
+    background-color: blue;
+
+
+    border-bottom-style:outset;
+    border-right-style: outset;
+    border-left-style: outset;
+    border-top-style: outset;
+
+    border-bottom-width: thick;
+    border-right-width: thick;
+
+    border-bottom-color: black;
+    border-right-color: black;
+    border-left-color: black;
+    border-top-color: black;
+
+    text-align: center;
+    border-radius: 30%;
+    display: block;
+    width: 7%;
+    float: left;
+
+    animation: animate1 5s linear infinite;
+
+}
+
+/* REGISTER button */
+
+.Register_NAV{
+
+
+    margin-left:85%;
+    margin-right:px;
+    margin-top: -1.2%;
+    font-size: 110%;
+    padding: px 10px;
+    position: relative;
+
+
+}
+
+#REGISTER{
+
+
+    display: inline;
+
+    font-family: cursive;
+    color: white;
+    background-color: 0;
+
+}
+
+#REGISTER a:hover {
+    color: white;
+    background-color: dodgerblue; 
+
+}
+
+#REGISTER a  {
+    text-decoration: none; 
+    color: white;
+    background-color:green;
+
+
+    border-bottom-style:outset;
+    border-right-style: outset;
+    border-left-style: outset;
+    border-top-style: outset;
+
+    border-bottom-width: thick;
+    border-right-width: thick;
+
+    border-bottom-color: black;
+    border-right-color: black;
+    border-left-color: black;
+    border-top-color: black;
+
+    text-align: center;
+    border-radius: 25%;
+    display: block;
+    width: 80%;
+    float:;
+
+    animation: animate1 5s linear infinite;
+
+}
+
+@keyframes animate1{
+
+    0%
+    {
+        color: gold;
+        box-shadow: 0 2px 10px rgba(0,255,0,1);   
+    }
+    33.3%
+    {
+        color: goldenrod;
+        box-shadow: 0 2px 10px rgba(0,255,0,1);   
+    }
+    66.6%
+    {
+        color: ghostwhite;
+        box-shadow: 0 2px 10px rgba(0,255,0,1);   
+    }
+    100%
+    {
+        color: goldenrod;
+        box-shadow: 0 2px 10px rgba(0,255,0,1);   
+    }
+}
+
+/* REGISTER button End */
+
+/* START OF THE FORM FIELD  */
+
+/* REGISTRATION_TABLE_1 START OF THE FORM FIELD  */
+
+.REGISTRATION_TABLE_1{
+
+    margin-top: 50px;
+    float: left;
+    margin-left: 22px;
+    font-size: 100%;
+}
+
+.REGISTRATION_TABLE_1  .address  input{
+
+    width:81%;
+}
+
+.REGISTRATION_TABLE_1  .player_name  input{
+
+    width:55%;
+
+}
+
+.REGISTRATION_TABLE_1  .player_LastName  input{
+
+    width:70%;
+}
+
+.REGISTRATION_TABLE_1  .address_city  input{
+
+    width:70%;
+}
+
+.REGISTRATION_TABLE_1  .Contact-Phone  input{
+
+    width:70%;
+}
+
+.REGISTRATION_TABLE_1  .Contact_Email  input{
+
+    width:90%;
+}
+
+/* REGISTRATION_TABLE_1 END OF THE FORM FIELD  */
+
+/* REGISTRATION_TABLE_2 START OF THE FORM FIELD  */
+
+.REGISTRATION_TABLE_2{
+
+
+
+    margin-top: 40px;
+    margin-left: 22px;
+    font-size: 100%;
+    margin-right: 443px ;
+    padding-top: 57%;
+
+}
+/* REGISTRATION_TABLE_2 START OF THE SUBMIT BUTTON  */
+
+.REGISTRATION_TABLE_2 table input{
+
+    width:8%;
+    cursor:pointer;
+}
+
+/* REGISTRATION_TABLE_2 END OF THE SUBMIT BUTTON  */
+
+/* REGISTRATION_TABLE_2 END OF THE FORM FIELD  */
+
+/* REGISTRATION_TABLE_3 START OF THE FORM FIELD  */
+
+.REGISTRATION_TABLE_3{
+
+    margin-top:40px;
+    float: left;
+    margin-left: 22px;
+    font-size: 100%;
+
+}
+
+.REGISTRATION_TABLE_3  .signature  input{
+
+    width:60%;
+
+}
+
+.REGISTRATION_TABLE_3  .date  input{
+
+    width:50%;
+
+}
+
+/* REGISTRATION_TABLE_3 END OF THE FORM FIELD  */
+/* REGISTRATION_TABLE_3 START OF THE SUBMIT BUTTON  */
+.REGISTRATION_TABLE_3  .Submit_Button  input{
+
+    width:50%;
+    margin-left:25%;
+    color:#08233e;
+    font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+    font-size:200%;
+    text-align:center;
+    padding-bottom: 35px;
+    background-color:aliceblue;
+    border:2px solid #ffcc00;
+    border-radius:100px;
+    cursor:pointer;
+}
+
+.Submit_Button input:hover{
+    background-color:rgba(255,204,0,0.8);
+}
+/* REGISTRATION_TABLE_3 END OF THE SUBMIT BUTTON  */
+/* TABLE STYLE  */
+table,th,td{
+    border:2px solid bisque;
+    background-color:bisque;
+    color:black;
+
+}
+input {
+
+    height: 25px;
+}
+/* END OF THE FORM FIELD  */
